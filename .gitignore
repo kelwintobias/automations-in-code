@@ -34,6 +34,12 @@ Thumbs.db
 logs
 *.log
 
+# Senhas e credenciais sensíveis
+*password*
+*senha*
+*root*
+*credentials*
+
 # Runtime data
 pids
 *.pid
@@ -51,3 +57,5 @@ out/
 # Temporary folders
 tmp/
 temp/
+
+# password root 08c00389d66e135231e186a944
