@@ -1,0 +1,31 @@
+{
+  "name": "automations-in-code",
+  "version": "1.0.0",
+  "description": "Projeto de automações usando MCP com DigitalOcean",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "mcp-test": "npx -y @digitalocean/mcp --services apps,droplets,networking",
+    "setup-env": "copy .env.example .env"
+  },
+  "keywords": [
+    "digitalocean",
+    "mcp",
+    "automation",
+    "vps",
+    "api"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@digitalocean/mcp": "latest"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  }
+}
